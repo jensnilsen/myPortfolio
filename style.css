@@ -1,7 +1,8 @@
 body {
   margin: 0;
   color: rgb(0, 54, 36);
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  background: #9ce9ce;
 }
 
 header {
@@ -35,7 +36,7 @@ p {
   font-size: 29px;
 }
 
-.highlight {
+.highlight-name {
   font-weight: 700;
 }
 
@@ -95,24 +96,6 @@ main {
   text-align: center;
 }
 
-.tech {
-  background: #f5f5f5;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 80px 30px;
-}
-
-.summary {
-  background: #9ce9ce;
-  height: auto;
-  text-align: left;
-  padding: 80px 30px;
-  margin: 0 auto;
-}
-
 .line-dot {
   height: 3px;
   width: 55px;
@@ -134,17 +117,101 @@ main {
   background: rgb(0, 54, 36);
 }
 
-.tech-box {
-  background: rgb(0, 54, 36);
-  height: 34px;
-  width: 83px;
+.summary,
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: #9ce9ce; */
+  height: auto;
+  text-align: left;
+  padding: 80px 30px;
+  width: auto;
+  margin: 0 5%;
+}
+
+.tech {
+  background: #f5f5f5;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 30px;
+  width: auto;
 }
 
 h3 {
+  background: rgb(0, 54, 36);
   color: #f5f5f5;
   font-size: 22px;
-  margin: 4px;
+  padding: 5px;
   font-weight: bold;
+}
+
+h5 {
+  color: #f5f5f5;
+  font-size: 22px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.flex-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  max-width: 800px;
+}
+
+.project-cards {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: left;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+  margin: 20px;
+  max-width: 303px;
+}
+
+.project-card-backgound {
+  display: flex;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: inset 0 0 0 100vmax rgba(109, 214, 179, 0.233);
+  border-radius: 3px;
+  width: 303px;
+  height: 179px;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-cards p {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 54, 36);
+}
+
+.project-card-title {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+  color: #f5f5f5;
+  position: absolute;
+}
+
+.highlight {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 @media (min-width: 667px) {
@@ -158,11 +225,11 @@ h3 {
 @media (min-width: 1025px) {
   figure {
     width: 330px;
-    top: 360px;
+    top: 260px;
     right: 10%;
   }
 
   header {
-    height: 650px;
+    height: 550px;
   }
 }
