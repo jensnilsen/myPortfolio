@@ -11,6 +11,7 @@ header {
   background-size: cover;
   background-position: center;
   height: 450px;
+  width: 100%;
 }
 
 .header-text {
@@ -52,7 +53,6 @@ p {
   width: 44px;
   height: 44px;
   margin: 5px;
-  /* margin-left: 5px; */
   background: none;
   background-repeat: no-repeat;
   background-position: center;
@@ -129,14 +129,17 @@ section {
   align-items: center;
   height: auto;
   text-align: left;
-  padding: 40px 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   width: auto;
 }
 
 .tech,
-.my-thoughts {
+.my-thoughts,
+.more {
   background: #e8fff2;
   margin: 0;
+  width: auto;
 }
 
 h3 {
@@ -231,7 +234,7 @@ a {
   flex-wrap: wrap;
   flex-direction: column;
   max-width: 646px;
-  margin: 5%;
+  margin: 5px;
 }
 
 .other-header {
@@ -306,7 +309,7 @@ h6 {
   border-radius: 50%;
   width: 64px;
   height: 64px;
-  margin: 20px;
+  margin: 10px;
   background: none;
   background-repeat: no-repeat;
   background-position: center;
@@ -337,7 +340,7 @@ footer {
   align-items: center;
   height: auto;
   padding: 40px 20px;
-  width: auto;
+  width: 100%;
   color: #ffffff;
 }
 
@@ -358,6 +361,9 @@ footer {
   }
   .project-cards {
     max-width: 303px;
+  }
+  .more-btn {
+    margin: 30px;
   }
 }
 
@@ -385,17 +391,8 @@ footer {
   }
 
   .btn {
-    border-radius: 50%;
-    width: 64px;
-    height: 64px;
-    margin: 5px;
-    /* margin-left: 5px; */
-    background: none;
-    background-repeat: no-repeat;
-    background-position: center;
-    cursor: pointer;
-    border: none;
-    /* get bigger pictures */
+    width: 58px;
+    height: 58px;
   }
 
   .project-cards {
