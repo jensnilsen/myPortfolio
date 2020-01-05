@@ -33,7 +33,7 @@ h4 {
 }
 
 p {
-  font-size: 17;
+  font-size: 19;
 }
 
 .highlight-name {
@@ -58,7 +58,6 @@ p {
   background-position: center;
   cursor: pointer;
   border: none;
-  /* get bigger pictures */
 }
 
 .btn:hover {
@@ -161,7 +160,7 @@ h5 {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 10px;
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 .project-cards {
@@ -171,7 +170,7 @@ h5 {
   text-align: left;
   width: 100%;
   margin: 20px;
-  max-width: 303px;
+  max-width: 403px;
 }
 
 .project-cards:hover {
@@ -182,10 +181,10 @@ h5 {
   display: flex;
   background-size: cover;
   background-position: center center;
-  box-shadow: inset 0 0 0 100vmax rgba(45, 97, 69, 0.61);
+  box-shadow: inset 0 0 0 100vmax rgba(14, 29, 21, 0.493);
   border-radius: 3px;
-  width: 303px;
-  height: 179px;
+  width: 100%;
+  height: 239px;
   justify-content: center;
   align-items: center;
 }
@@ -220,7 +219,7 @@ a {
 }
 
 .tag {
-  background-color: #3aa028a8;
+  background-color: #3f8f31cc;
   color: #f9f9f9;
   padding: 2px 6px;
   margin: 0 3px 5px 3px;
@@ -274,22 +273,132 @@ a {
   font-weight: 700;
 }
 
-@media (min-width: 667px) {
+/* skills */
+
+.skill-box-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 700px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 15px 0;
+}
+
+li {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+h6 {
+  margin: 0;
+  font-size: 17px;
+}
+
+/* MORE */
+
+.more-btn {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  margin: 20px;
+  background: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border: none;
+}
+
+.more-btn:hover {
+  opacity: 0.7;
+}
+
+#more-btn-in {
+  background-image: url("images/linkedin-5-64.png");
+}
+
+#more-btn-git {
+  background-image: url("images/github-10-64.png");
+}
+
+#more-btn-stack {
+  background-image: url("images/stackoverflow-5-64.png");
+}
+footer {
+  background-color: rgb(98, 136, 89);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 40px 20px;
+  width: auto;
+  color: #ffffff;
+}
+
+.email {
+  color: #ffffff;
+  margin: 0px;
+}
+
+.email:hover {
+  opacity: 0.7;
+}
+
+@media (min-width: 770px) {
   figure {
-    width: 220px;
+    width: 210px;
     top: 260px;
     right: 10%;
+  }
+  .project-cards {
+    max-width: 303px;
   }
 }
 
 @media (min-width: 1025px) {
   figure {
     width: 330px;
-    top: 260px;
+    top: 230px;
     right: 10%;
   }
 
   header {
     height: 550px;
+  }
+
+  #btn-in {
+    background-image: url("images/linkedin-64.png");
+  }
+
+  #btn-git {
+    background-image: url("images/github-64.png");
+  }
+
+  #btn-stack {
+    background-image: url("images/stackoverflow-64.png");
+  }
+
+  .btn {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    margin: 5px;
+    /* margin-left: 5px; */
+    background: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    border: none;
+    /* get bigger pictures */
+  }
+
+  .project-cards {
+    max-width: 403px;
   }
 }
