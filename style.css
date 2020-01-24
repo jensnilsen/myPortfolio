@@ -1,7 +1,7 @@
 body {
   margin: 0;
   color: rgb(0, 54, 36);
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background: #9ce9ce;
 }
 
@@ -66,15 +66,15 @@ p {
 }
 
 #btn-in {
-  background-image: url("images/linkedin-48.png");
+  background-image: url('images/linkedin-48.png');
 }
 
 #btn-git {
-  background-image: url("images/github-48.png");
+  background-image: url('images/github-48.png');
 }
 
 #btn-stack {
-  background-image: url("images/stackoverflow-48.png");
+  background-image: url('images/stackoverflow-48.png');
 }
 
 figure {
@@ -108,7 +108,7 @@ main {
 }
 
 .line-dot::after {
-  content: "";
+  content: '';
   height: 11px;
   width: 11px;
   position: relative;
@@ -194,7 +194,7 @@ h5 {
 }
 
 .project-cards p {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 17px;
 }
 
@@ -204,7 +204,7 @@ a {
 }
 
 .project-card-title {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 17px;
@@ -213,7 +213,7 @@ a {
 }
 
 .highlight {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 17px;
   font-weight: 700;
 }
@@ -239,7 +239,7 @@ a {
 }
 
 .other-header {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 21px;
   color: rgb(0, 54, 36);
@@ -267,12 +267,12 @@ a {
   margin: 4px 0;
   color: rgb(112, 112, 112);
   font-size: 17px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
 }
 
 .thoughts-highlight {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 21px;
   font-weight: 700;
 }
@@ -323,15 +323,15 @@ h6 {
 }
 
 #more-btn-in {
-  background-image: url("images/linkedin-5-64.png");
+  background-image: url('images/linkedin-5-64.png');
 }
 
 #more-btn-git {
-  background-image: url("images/github-10-64.png");
+  background-image: url('images/github-10-64.png');
 }
 
 #more-btn-stack {
-  background-image: url("images/stackoverflow-5-64.png");
+  background-image: url('images/stackoverflow-5-64.png');
 }
 footer {
   background-color: rgb(98, 136, 89);
@@ -385,15 +385,15 @@ footer {
   }
 
   #btn-in {
-    background-image: url("images/linkedin-64.png");
+    background-image: url('images/linkedin-64.png');
   }
 
   #btn-git {
-    background-image: url("images/github-64.png");
+    background-image: url('images/github-64.png');
   }
 
   #btn-stack {
-    background-image: url("images/stackoverflow-64.png");
+    background-image: url('images/stackoverflow-64.png');
   }
 
   .btn {
